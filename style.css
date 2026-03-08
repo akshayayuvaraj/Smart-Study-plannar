@@ -86,3 +86,24 @@ li{
 .dark li{
     background: #444;
 }
+@media (max-width:600px){
+
+    .container{
+    width:95%;
+    padding:20px;
+    }
+    
+    h1{
+    font-size:18px;
+    }
+    
+    .taskBox{
+    gap:8px;
+    }
+    
+    li{
+    flex-direction:column;
+    align-items:flex-start;
+    }
+    
+    }
