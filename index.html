@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Smart Study Planner</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>📚 Smart Study Planner</h1>
+
+<button id="darkBtn">🌙 Dark Mode</button>
+
+</header>
+
+
+<div class="taskBox">
+
+<input type="text" id="taskInput" placeholder="Enter study task">
+
+<select id="subject">
+
+<option value="Math">Math</option>
+<option value="Physics">Physics</option>
+<option value="Programming">Programming</option>
+<option value="English">English</option>
+
+</select>
+
+<input type="time" id="timeInput">
+
+<button onclick="addTask()">Add Task</button>
+
+</div>
+
+
+<div class="progressBox">
+
+<p>Progress</p>
+
+<div class="progressBar">
+
+<div id="progress"></div>
+
+</div>
+
+</div>
+
+
+<ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
